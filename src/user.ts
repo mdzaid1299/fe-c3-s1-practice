@@ -38,6 +38,6 @@ function registerUser(user: User) {
         }
     }).then(response => response.json()).then(json=> console.log(json))
     //Dispay welcome message after successful registration
-    alert("successful registration");
+    alert("Registration Done");
     return false;
 }
